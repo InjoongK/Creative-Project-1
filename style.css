@@ -1,0 +1,73 @@
+
+.bg-dark {
+    background-color: #6f8eb6 !important;
+  }
+
+body {
+    background-color: #d3d8dd;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+.mapphotos-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mapphotos-container {
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+}
+
+img {
+    padding: 5px;
+    background-color: #6f8eb6;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+}
+
+.explain-box {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.mapphotos-container {
+    display: grid;
+    grid-template: auto auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    justify-content: center;
+}
+
+.other-language {
+    margin: 0 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+    padding: 60px;
+    text-align: center;
+}
